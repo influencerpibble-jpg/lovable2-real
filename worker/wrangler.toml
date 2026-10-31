@@ -1,0 +1,7 @@
+name = "siteforge-deployer"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+# Configure secrets instead of placing tokens here:
+# wrangler secret put CLOUDFLARE_API_TOKEN
+# wrangler secret put CLOUDFLARE_ACCOUNT_ID
+# wrangler secret put FIREBASE_PROJECT_ID
